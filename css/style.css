@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat:wght@700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #160C6E;
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    /* overflow: hidden; */
+
+}
+
+
+
+.todo {
+    position: relative;
+
+}
+
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.busca {
+    margin-right: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.menu-lateral {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 500px;
+
+}
+
+.menu-lateral,
+ul {
+    list-style: none;
+    /* margin: 10px;    */
+}
+
+.menu-lateral,
+ul,
+li {
+    padding: 10px;
+
+}
+
+.imagem-central {
+    position: absolute;
+    left: -10rem;
+
+}
+
+.circ-1 {
+    width: 1114px;
+    height: 1114px;
+    background-color: #3F21D0;
+    border-radius: 50%;
+
+
+
+
+}
+
+.circ-2 {
+    width: 691.49px;
+    height: 691.49px;
+    background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+    border-radius: 50%;
+    position: absolute;
+    left: 28rem;
+    bottom: 22rem;
+
+
+}
+
+.menu-lateral-2 {
+    position: absolute;
+    top: 30rem;
+    float: left;
+    right: 5rem;
+
+
+
+}
+
+.menu-lateral-2,
+p {
+    font-size: 1rem;
+    font-weight: 700;
+
+
+
+}
+
+.menu-lateral-2,
+h1 {
+    font-size: 103px;
+    font-weight: 900;
+}
+
+button {
+    width: 171px;
+    height: 54px;
+    background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+    border: none;
+    border-radius: 100px;
+    font-family: 'montserrat';
+    color: white;
+
+
+}
