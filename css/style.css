@@ -68,6 +68,13 @@ li {
 
 }
 
+.menu-lateral,
+ul,
+li:hover {
+   cursor: pointer;
+
+}
+
 .imagem-central {
     position: absolute;
     left: -10rem;
